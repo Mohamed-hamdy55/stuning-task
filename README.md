@@ -133,7 +133,7 @@ to use it "process.env.GEMINI_API_KEY" or any other enviroment variable "process
 
 ## 🎥 Live Perview
 
-Link: [hero-task.vercel.app]()
+Link: [hero-task.vercel.app](https://stuning-task.vercel.app/)
 
 ---
 
