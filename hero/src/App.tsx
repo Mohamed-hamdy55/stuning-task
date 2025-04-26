@@ -9,6 +9,7 @@ import {
 import { useSelector } from "react-redux";
 import { RootState } from "@store/store";
 import ScrollToTop from "@components/common/ScrollToTop";
+import { Analytics } from "@vercel/analytics/react"
 
 const App: React.FC = () => {
   const currentLanguage = useSelector(
@@ -42,6 +43,7 @@ const App: React.FC = () => {
         pauseOnHover
         theme="light"
       />
+      <Analytics />
     </>
   );
 };
